@@ -1,5 +1,6 @@
 p{
     display: none;
+    font-family: 'Montserrat', sans-serif;
     
 }
 
@@ -9,4 +10,33 @@ h3{
 
 ul{
     list-style: none;
+}
+body {
+    background-color: #6E4769;
+    color: #fff;
+    
+}
+
+.card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color:#A1606C !important;
+    border-bottom: 1px solid rgb(59, 46, 56);
+    font-family: 'Righteous', cursive;
+    letter-spacing: 1px;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    background-color: #A68B00 !important;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+    letter-spacing: 1.5px;
 }
